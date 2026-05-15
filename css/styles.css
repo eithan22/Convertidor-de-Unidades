@@ -1,0 +1,112 @@
+body{
+  background-color: #3F72AF ;
+  height: 100%vh;
+  padding: 0;
+  margin: 0;
+  color:#DBE2EF;
+   display: grid;
+  place-content: center;
+
+}
+
+
+.header{
+  display: grid;
+  place-items: center;
+  margin-bottom: 4%;
+  margin-top: 5%;
+  
+
+}
+
+.titulo{
+  font-size: 45px;
+  font-weight: 800;
+
+}
+
+
+.convertidor{
+  background-color: #3e6ba3;
+  width: 600px;
+  height: 250px;
+  max-width: 100%;
+  max-height: 100%;
+  display: grid;
+  border-radius: 15px;
+}
+
+.categorias{
+  display: grid;
+  place-items: center;
+}
+
+
+.selet-categoria{
+  width: 90%;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #becfed;
+}
+
+
+.inputs{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.opcEntrada{
+  display: flex;
+ 
+  border-radius: 5px;
+  height: 20px;
+   background-color: #becfed;
+  
+}
+
+
+.opcSalida{
+  display: flex;
+ 
+  border-radius: 5px;
+  height: 20px;
+   background-color: #becfed;
+  
+}
+
+.entrada{
+  display: grid;
+ 
+}
+
+.salida{
+    display: grid
+
+}
+
+.InputEntrada{
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #3F72AF;
+
+}
+
+.InputSalida{
+    width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #3F72AF;
+}
+
+.boton{
+  display: grid;
+  place-items: center;
+}
+
+.btnConvert{
+  width: 50%;
+  height: 40%;
+  background-color: aquamarine;
+}
