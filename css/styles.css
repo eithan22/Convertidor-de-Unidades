@@ -1,10 +1,10 @@
 body{
-  background-color: #3F72AF ;
+  background-color: #31304D ;
   height: 100%vh;
   padding: 0;
   margin: 0;
   color:#DBE2EF;
-   display: grid;
+  display: grid;
   place-content: center;
 
 }
@@ -27,9 +27,9 @@ body{
 
 
 .convertidor{
-  background-color: #3e6ba3;
-  width: 600px;
-  height: 250px;
+  background-color: #2B2842;
+  width: 700px;
+  height: 450px;
   max-width: 100%;
   max-height: 100%;
   display: grid;
@@ -39,14 +39,17 @@ body{
 .categorias{
   display: grid;
   place-items: center;
+ 
 }
 
 
 .selet-categoria{
   width: 90%;
-  height: 35px;
+  height: 40px;
   border-radius: 10px;
-  background-color: #becfed;
+  background-color: #31304D;
+  color:#DBE2EF;
+  font-size: 16px;
 }
 
 
@@ -54,30 +57,35 @@ body{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
+  margin-bottom: 5%;
 }
 
 .opcEntrada{
   display: flex;
- 
   border-radius: 5px;
   height: 20px;
-   background-color: #becfed;
+  background-color: #3B3B69;
+  color: #DBE2EF;;
+  font-size: 16px;
+  
+    
   
 }
 
 
 .opcSalida{
   display: flex;
- 
   border-radius: 5px;
   height: 20px;
-   background-color: #becfed;
+  background-color: #3B3B69;
+  color: #DBE2EF;;
+  font-size: 16px;
   
 }
 
 .entrada{
   display: grid;
- 
+
 }
 
 .salida{
@@ -87,26 +95,33 @@ body{
 
 .InputEntrada{
   width: 250px;
-  height: 30px;
+  height: 40px;
   border-radius: 10px;
-  background-color: #3F72AF;
+  background-color: #31304D;
+  color: white;
+  font-size: 16px;
 
 }
 
 .InputSalida{
     width: 250px;
-  height: 30px;
+  height: 40px;
   border-radius: 10px;
-  background-color: #3F72AF;
+  background-color: #31304D;
+  color: white;
+  font-size: 16px;
 }
 
 .boton{
   display: grid;
   place-items: center;
+  margin-bottom: 5%;
 }
 
 .btnConvert{
   width: 50%;
-  height: 40%;
-  background-color: aquamarine;
+  height: 50%;
+  background-color: #7575C9;
+  font-size: 18px;
+  border-radius: 10px;
 }
